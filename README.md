@@ -1,7 +1,6 @@
 <h1>Portfolio Site</h1>
 <img src="./public/home.png">
-## Visit deployed site:
-https://priyanshu-dev.vercel.app/
+Visit deployed site: https://priyanshu-dev.vercel.app/
 
 ## Getting Started
 
