@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Priyanshu | Personal Portfolio",
-  description: "Priyanshu is a full-stack developer with passion for latest Technologies",
+  description: "Priyanshu Baghel is a full-stack developer with passion for latest Technologies.He is currently studying BE in Chitkara University, Punjab.",
 };
 
 export default function RootLayout({
