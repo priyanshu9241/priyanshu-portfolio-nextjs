@@ -58,9 +58,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Priyanshu.</span> I'm an
         <span className="font-bold"> aspiring full-stack developer.</span>I
-        enjoy building <span className="italic"> sites & apps</span>. My current focus
-        is
-        <span className="underline"> React (Next.js)</span>.
+        enjoy building <span className="italic"> sites & apps</span>. My current
+        focus is <span className="underline">React(Next.js</span>)
       </motion.h1>
 
       <motion.div
@@ -73,7 +72,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none group px-7 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 "
+          className="flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none group px-6 focus:scale-104 hover:scale-110 hover:bg-gray-950 "
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());

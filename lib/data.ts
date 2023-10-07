@@ -61,30 +61,30 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: shoppingSiteImg,
-    gitLink:"https://github.com/priyanshu9241/ERROR-404-SHOPPING_WEBSITE"
+    gitLink: "https://github.com/priyanshu9241/ERROR-404-SHOPPING_WEBSITE",
   },
   {
     title: "Courses Site",
     description:
-    "This site is a React project for courses ,It uses REST API to fetch course data",
+      "This site is a React project for courses ,It uses REST API to fetch course data",
     tags: ["React", "JavaScript", "Tailwind"],
     imageUrl: coursesImg,
-    gitLink:"https://github.com/priyanshu9241/top-courses"
+    gitLink: "https://github.com/priyanshu9241/top-courses",
   },
   {
     title: "Portfolio Site",
     description: "This is portfolio site made using HTML, JS and Vanilla CSS",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: portfolioImg,
-    gitLink:"https://github.com/priyanshu9241/Priyanshu-Portfolio"
+    gitLink: "https://github.com/priyanshu9241/Priyanshu-Portfolio",
   },
   {
     title: "YAPS",
     description:
-    "I contributed to the opensource repository of a famous P2P media sharing site called YAPS by adding pages and optimising codebase",
+      "I contributed to the opensource repository of a famous P2P media sharing site called YAPS by adding pages and optimising codebase",
     tags: ["React", "Next.js", "JavaScript", "Tailwind"],
     imageUrl: yapsImg,
-    gitLink:"https://github.com/priyanshu9241/yaps"
+    gitLink: "https://github.com/priyanshu9241/yaps",
   },
 ] as const;
 
@@ -98,12 +98,11 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
   "Express",
   "Framer Motion",
   "React Email",
   "Resend",
-  "Vercel"
+  "Vercel",
 ] as const;
