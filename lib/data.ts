@@ -37,7 +37,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated High School",
+    title: "Graduated CBSE Class 12",
     location: "Saint Vivekanand Sr Sec Public School",
     description:
       "Passed my high school with 89.6 % in 2020. I was a Science student with Computer Science as an optional subject.",
@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "BE CSE",
     location: "Chitkara University, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Currently studying in Chitkara University, India. I am a Computer Science student. Learnt various skills like Data Structures, Algorithms, Web Development, etc. Current CGPA is 9.62",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - Present",
   },
