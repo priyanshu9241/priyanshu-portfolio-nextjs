@@ -7,6 +7,7 @@ import shoppingSiteImg from "@/public/shopping-site.jpeg";
 import coursesImg from "@/public/top-courses.jpg";
 import portfolioImg from "@/public/portfolio.png";
 import yapsImg from "@/public/yaps.jpg";
+import fileHavenImg from "@/public/file-haven.jpg";
 
 export const links = [
   {
@@ -56,6 +57,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "File Haven",
+    description:
+      "An app where you can make upload files, make groups and manage file access to each group.",
+    tags: [
+      "Next.js",
+      "TailwindCss",
+      "Convex",
+      "TypeScript",
+      "ClerkAuth",
+      "Node.js",
+    ],
+    imageUrl: fileHavenImg,
+    gitLink: "https://github.com/priyanshu9241/FileHaven",
+  },
+  {
     title: "Shopping Site",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
@@ -97,6 +113,7 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "Convex",
   "Tailwind",
   "MongoDB",
   "Redux",
