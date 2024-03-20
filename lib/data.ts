@@ -7,7 +7,7 @@ import shoppingSiteImg from "@/public/shopping-site.jpeg";
 import coursesImg from "@/public/top-courses.jpg";
 import portfolioImg from "@/public/portfolio.png";
 import yapsImg from "@/public/yaps.jpg";
-import fileHavenImg from "@/public/fileHaven.jpg";
+import fileHavenImg from "@/public/fileHaven.png";
 
 export const links = [
   {
