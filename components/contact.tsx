@@ -55,7 +55,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="px-4 transition-all rounded-lg h-14 borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none"
+          className="px-4 transition-all rounded-lg h-14 border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none"
           name="senderEmail"
           type="email"
           required
@@ -63,7 +63,7 @@ export default function Contact() {
           placeholder="Your email"
         />
         <textarea
-          className="p-4 my-3 transition-all rounded-lg resize-none h-52 res borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none"
+          className="p-4 my-3 transition-all rounded-lg resize-none h-52 res border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none"
           name="message"
           placeholder="Your message"
           required

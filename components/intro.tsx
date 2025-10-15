@@ -85,21 +85,21 @@ export default function Intro() {
         </Link>
         <a
           href="/Priyanshu Baghel-Resume.pdf"
-          className="flex items-center gap-2 p-3 transition bg-white rounded-full outline-none group px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack dark:bg-white/10"
+          className="flex items-center gap-2 p-3 transition bg-white rounded-full outline-none group px-7 focus:scale-110 hover:scale-110 active:scale-105 border-black/10 dark:bg-white/10"
           download
         >
           Download CV{" "}
           <HiDownload className="transition opacity-70 group-hover:translate-x-1" />
         </a>
         <a
-          className=" gap-2 items-center bg-white p-4 text-gray-700 rounded-full outline-none focus:scale-110 hover:scale-[1.15] active:scale-[1.15] transition borderBlack dark:bg-white/10 hover:text-gray-950 dark:text-white/60"
+          className=" gap-2 items-center bg-white p-4 text-gray-700 rounded-full outline-none focus:scale-110 hover:scale-[1.15] active:scale-[1.15] transition border-black/10 dark:bg-white/10 hover:text-gray-950 dark:text-white/60"
           href="https://www.linkedin.com/in/priyanshu-baghel/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className=" gap-2 items-center bg-white p-3.5 text-gray-700 rounded-full text-[1.35rem] outline-none focus:scale-110 hover:scale-[1.15]  active:scale-[1.15] transition borderBlack dark:bg-white/10 hover:text-gray-950 dark:text-white/60"
+          className=" gap-2 items-center bg-white p-3.5 text-gray-700 rounded-full text-[1.35rem] outline-none focus:scale-110 hover:scale-[1.15]  active:scale-[1.15] transition border-black/10 dark:bg-white/10 hover:text-gray-950 dark:text-white/60"
           href="https://github.com/priyanshu9241"
           target="_blank"
         >
