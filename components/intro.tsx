@@ -16,7 +16,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0"
+      className="scroll-mt-400 mb-28 max-w-200 text-center sm:mb-0"
     >
       {/* <div className="flex items-center justify-center">
         <div className="relative">
@@ -52,16 +52,18 @@ export default function Intro() {
         </div>
       </div> */}
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium leading-normal! sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Priyanshu.</span> I'm an
-        <span className="font-bold"> aspiring full-stack developer.</span>
+        <span className="font-bold">Hello, I'm Priyanshu.</span> I'm a
+        <span className="font-bold"> full-stack developer.</span>
         <br />
         <br />
        I enjoy building <span className="italic"> sites & apps</span>. My current
-        focus is <span className="underline">React(Next.js</span>)
+        focus is <span className="underline">
+               (C# ASP.NET  
+          </span>)
       </motion.h1>
 
       <motion.div
@@ -74,7 +76,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none group px-6 focus:scale-104 hover:scale-110 hover:bg-gray-950 "
+          className="flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-hidden group px-6 focus:scale-104 hover:scale-110 hover:bg-gray-950 "
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -85,21 +87,21 @@ export default function Intro() {
         </Link>
         <a
           href="/Priyanshu Baghel-Resume.pdf"
-          className="flex items-center gap-2 p-3 transition bg-white rounded-full outline-none group px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack dark:bg-white/10"
+          className="flex items-center gap-2 p-3 transition bg-white rounded-full outline-hidden group px-7 focus:scale-110 hover:scale-110 active:scale-105 border border-black/10 dark:bg-white/10"
           download
         >
           Download CV{" "}
           <HiDownload className="transition opacity-70 group-hover:translate-x-1" />
         </a>
         <a
-          className=" gap-2 items-center bg-white p-4 text-gray-700 rounded-full outline-none focus:scale-110 hover:scale-[1.15] active:scale-[1.15] transition borderBlack dark:bg-white/10 hover:text-gray-950 dark:text-white/60"
+          className=" gap-2 items-center bg-white p-4 text-gray-700 rounded-full outline-hidden focus:scale-110 hover:scale-[1.15] active:scale-[1.15] transition border border-black/10 dark:bg-white/10 hover:text-gray-950 dark:text-white/60"
           href="https://www.linkedin.com/in/priyanshu-baghel/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className=" gap-2 items-center bg-white p-3.5 text-gray-700 rounded-full text-[1.35rem] outline-none focus:scale-110 hover:scale-[1.15]  active:scale-[1.15] transition borderBlack dark:bg-white/10 hover:text-gray-950 dark:text-white/60"
+          className=" gap-2 items-center bg-white p-3.5 text-gray-700 rounded-full text-[1.35rem] outline-hidden focus:scale-110 hover:scale-[1.15]  active:scale-[1.15] transition border border-black/10 dark:bg-white/10 hover:text-gray-950 dark:text-white/60"
           href="https://github.com/priyanshu9241"
           target="_blank"
         >

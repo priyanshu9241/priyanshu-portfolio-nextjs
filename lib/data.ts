@@ -51,7 +51,15 @@ export const experiencesData = [
     description:
       "Currently studying in Chitkara University, India. I am a Computer Science student. Learnt various skills like Data Structures, Algorithms, Web Development, etc. Current CGPA is 9.62",
     icon: React.createElement(LuGraduationCap),
-    date: "2021 - Present",
+    date: "2021 - June 2025",
+  },
+  {
+    title: "Member of Technical Staff (MTS)",
+    location: "Nielsen Media",
+    description:
+      "Specializing in building high-performance, scalable backend systems and optimizing complex desktop applications. My work spans C++ for performance-critical Windows apps, C# .NET microservices, and React-based web apps — all deployed and monitored in AWS.",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2024 - Present",
   },
 ] as const;
 
@@ -105,13 +113,24 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "C#",
+  "C++",
+  ".NET",
+  "React",
+  "JavaScript",
+  "Node.js",
+  "AWS",
+  "Grafana",
+  "PostgreSQL",
+  "gRPC",
+  "REST APIs",
+  "Python",
+  "Java",
+  "ASP.NET",
   "HTML",
   "CSS",
-  "JavaScript",
   "TypeScript",
-  "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Convex",
   "Tailwind",
@@ -119,7 +138,4 @@ export const skillsData = [
   "Redux",
   "Express",
   "Framer Motion",
-  "React Email",
-  "Resend",
-  "Vercel",
 ] as const;
