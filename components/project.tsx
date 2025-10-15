@@ -38,7 +38,7 @@ export default function Project({
             {description}
           </p>
           <a
-            className="bg-gray-900 px-3 py-2 my-3 text-[0.7rem] tracking-wider text-white rounded-full dark:bg-white dark:bg-opacity-10  dark:text-white/70 w-fit transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
+            className="bg-gray-900 px-3 py-2 my-3 text-[0.7rem] tracking-wider text-white rounded-full  w-fit transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
             href={gitLink}
           >
             Read More...

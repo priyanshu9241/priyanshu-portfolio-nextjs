@@ -35,7 +35,7 @@ export default function Contact() {
       <p className="-mt-6 text-gray-700 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:priyanshu1079w@gmail.com">
-          priyanshu1079w@gmail.com
+          priyanshu9241@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -55,7 +55,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="px-4 transition-all rounded-lg h-14 border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-hidden"
+          className="px-4 transition-all rounded-lg h-14 border border-black/20 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none"
           name="senderEmail"
           type="email"
           required
@@ -63,7 +63,7 @@ export default function Contact() {
           placeholder="Your email"
         />
         <textarea
-          className="p-4 my-3 transition-all rounded-lg resize-none h-52 res border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-hidden"
+          className="p-4 my-3 transition-all rounded-lg resize-none h-52 res border border-black/20 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-hidden"
           name="message"
           placeholder="Your message"
           required
