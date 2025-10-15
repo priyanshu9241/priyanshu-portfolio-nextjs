@@ -1,7 +1,5 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss";
 @tailwind utilities;
-
 html {
   --line-color: #e5e7eb;
 }

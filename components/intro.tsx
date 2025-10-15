@@ -56,12 +56,14 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Priyanshu.</span> I'm an
-        <span className="font-bold"> aspiring full-stack developer.</span>
+        <span className="font-bold">Hello, I'm Priyanshu.</span> I'm a
+        <span className="font-bold"> full-stack developer.</span>
         <br />
         <br />
        I enjoy building <span className="italic"> sites & apps</span>. My current
-        focus is <span className="underline">React(Next.js</span>)
+        focus is <span className="underline">
+               (C# ASP.NET  
+          </span>)
       </motion.h1>
 
       <motion.div

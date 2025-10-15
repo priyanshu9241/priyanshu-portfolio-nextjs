@@ -19,26 +19,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Currently pursuing BE CSE in{" "}
-        <span className="font-medium">Chitkara University.</span>
-        <span className="italic"> My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is
-        <span className="font-medium">
-          {" "}
-          React, Next.js, Node.js,Express.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript, Tailwind CSS and Framer Js. I am
-        always looking to learn new skills. I am currently looking for a{" "}
-        <span className="font-medium">Intern position</span> as a software
-        developer.
+        I'm a <span className="font-medium">Member of Technical Staff (MTS) at Nielsen Media</span>, where I specialize in building high-performance, scalable backend systems and optimizing complex desktop applications. My work involves using <span className="font-medium">C++</span> for performance-critical Windows apps, <span className="font-medium">C# .NET</span> microservices, and <span className="font-medium">React-based</span> web apps, all deployed and monitored in <span className="font-medium">AWS</span>.
       </p>
-
+      <p className="mb-3">
+        I have a passion for performance tuning, distributed system design, and creating clean, maintainable architecture. I'm experienced with technologies like <span className="font-medium">gRPC, Protocol Buffers, Grafana, and PostgreSQL</span>.
+      </p>
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies,and TV shows. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>
+        video games, watching movies, and TV shows. I'm always open to discussing low-latency systems, backend performance engineering, and cloud-native monitoring solutions.
       </p>
     </motion.section>
   );
